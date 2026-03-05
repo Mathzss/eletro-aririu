@@ -186,10 +186,10 @@ export default function App() {
                 </p>
               </div>
               <a
-                href={`https://wa.me/${config.whatsapp}?text=Quero%20agendar%20meu%20check-up%20gratuito`}
+                href={`https://wa.me/${config.whatsapp}?text=Quero%20arrumar%20meu%20ar_condicionado,%20vim%20pelo%20site!`}
                 className="bg-black text-white px-10 py-4 rounded-full font-black uppercase tracking-tighter hover:bg-slate-900 transition-all transform hover:scale-105 shadow-xl"
               >
-                Garantir Vaga
+                Entrar em Contato
               </a>
             </div>
           </div>
@@ -220,7 +220,13 @@ export default function App() {
             <ServiceCard
               icon={<Settings className="text-slate-400" size={32} />}
               title="Mecânica Geral"
-              items={["Suspensão", "Freios ABS", "Troca de Óleo", "Embraiagem"]}
+              items={[
+                "Suspensão",
+                "Freios",
+                "Troca de Óleo",
+                "Troca de Óleo de cambio automático",
+                "Embreagem",
+              ]}
             />
             <ServiceCard
               icon={<Snowflake className="text-cyan-400" size={32} />}
