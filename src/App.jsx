@@ -24,7 +24,7 @@ export default function App() {
   // Informações da Oficina
   const config = {
     nome: "Eletro Aririú",
-    whatsapp: "5548984022945 ", //número real
+    whatsapp: "5548984022945", //número real
     endereco: "Av. Bom Jesus de Nazaré, 1958 - Aririu, Palhoça - SC, 88135-101",
     googleMapsUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14136.91427508493!2d-48.675!3d-27.65!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952737f000000000%3A0x0!2zRWxldHJvIEFyaXJpw7o!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr",
@@ -186,7 +186,7 @@ export default function App() {
                 </p>
               </div>
               <a
-                href={`https://wa.me/${config.whatsapp}?text=Quero+agendar+meu+check-up+gratuito`}
+                href={`https://wa.me/${config.whatsapp}?text=Quero%20agendar%20meu%20check-up%20gratuito`}
                 className="bg-black text-white px-10 py-4 rounded-full font-black uppercase tracking-tighter hover:bg-slate-900 transition-all transform hover:scale-105 shadow-xl"
               >
                 Garantir Vaga
