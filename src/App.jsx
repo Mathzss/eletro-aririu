@@ -178,11 +178,11 @@ export default function App() {
                   Oferta Especial
                 </span>
                 <h3 className="text-4xl font-black text-white mb-2">
-                  Check-up Elétrico Gratuito!
+                  Troca de Gás do Ar condicionado!
                 </h3>
                 <p className="text-orange-50 text-lg">
-                  Traga seu veículo para um diagnóstico de bateria e alternador
-                  sem custos este mês.
+                  Traga seu veículo para trocar o gás e deixe o calor de lado.
+                  Entre em Contato conosco!
                 </p>
               </div>
               <a
